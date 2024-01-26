@@ -1,0 +1,62 @@
+html {
+    margin: 0;
+  }
+  body{
+    font-family: futura;
+  }
+  
+  .canvas {
+    margin: 150px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .h1{
+    font-size: 7vw;
+    line-height: 6vw;
+    letter-spacing: -1px;
+    text-align: center;
+    font-family: futura;
+  }
+
+  .h1-2{
+    font-size: 5vw;
+    line-height: 0.1vw;
+    letter-spacing: -1px;
+    text-align: center;
+    font-family: futura;
+    margin-bottom: 100px;
+  }
+
+  .button {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #red {
+    background: linear-gradient(to right, red, rgb(224, 106, 106));
+    cursor: pointer;
+  }
+  
+  #white {
+    background: linear-gradient(to right, white, lightgrey);
+    cursor: pointer;
+
+  }
+
+  #purple-blue{
+    background:linear-gradient(to right, #6633cc, #0099ff);
+    cursor: pointer;
+  }
+
+  #yellow {
+    background:linear-gradient(to right, yellow, lightyellow);
+    cursor: pointer;
+  }
+
+  
